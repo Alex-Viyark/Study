@@ -6,3 +6,5 @@ def print_pack_report(quantity_boxes):
     elif quantity_boxes%3==0:
         print(f'{quantity_boxes} - расфасуем по 3')
   )
+    else:
+        print(f'{quantity_boxes} - не заказываем!')
